@@ -159,9 +159,10 @@ bash gamephish.sh
 fi  
 clear
 bannr
-ban
 upda 
 clear
+bannr
+baned
 
 bannr() {
 echo -e " \e[96m
@@ -172,11 +173,7 @@ echo "                             ███████████████
 echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──▄▀\e[0m▐█"
 echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
 echo "                            ▄████▄──▐▌──▄████▄"
-}
-bannr
-ban
-baned
-ban() { 
+
 echo -e "\e[91m
                 
                    ___    __    __  __  ____  ____  _   _  ____  ___  _   _ 
