@@ -1,4 +1,101 @@
 clear
+about() { 
+echo -e '\e[91m
+                     ──▐─▌──▐─▌──
+                     ─▐▌─▐▌▐▌─▐▌─
+                     ─█▄▀▄██▄▀▄█─
+                     ──▄──██▌─▄──
+                     ▄▀─█▀██▀█─▀▄
+                     ▐▌▐▌─▐▌─▐▌▐▌
+                     ─▐─█────█─▌─
+                     ────▌──▐────
+'
+echo -e "\e[93m                    CALL ME \e[92mJATT" | pv -qL 10
+echo -e "\e[93m               REAL NAME \e[92mJATIN KALWAR" | pv -qL 10
+echo -e "\e[93m             IAM FROM \e[92mYOURHACKINGHOUSE" | pv -qL 10
+echo -e "\e[93m        IM A \e[92mGEEK\e[93m WITH LOTS OF EXCITEMENT" | pv -qL 10
+echo -e "\e[93m       HOPE YOU LIKE THIS MASTER BOMBER 2.O" | pv -qL 10
+echo -e "\e[93m         OOPS... I TALK A LOT SRY FOR THAT " | pv -qL 10
+echo -e "\e[93m              JOIN GROUPS ON \e[92mWHATS' APP" | pv -qL 10
+echo -e "\e[93m        MY WEBSITE:\e[92m https://bit.ly/2QT6dSR \e[0m" | pv -qL 10
+
+echo -e "\e[92m                BYEE.............." | pv -qL 10
+sleep 8.0
+ban
+}
+
+  upd(){
+if [ -d "$HOME/GamePhish" ];
+then
+cd $HOME
+rm -rf GamePhish
+elif [ -d "$HOME/GamePhish" ];
+then
+cd $HOME
+rm -rf GamePhish
+else
+echo
+exit 1
+fi
+cd $HOME
+sleep 1
+echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo
+printf "                     \e[96m["
+# While process is running...
+while git clone https://github.com/jatinkalwar/GamePhish 2> /dev/null; do 
+    printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
+    sleep 1
+done
+printf "\e[96m]\e[0m"
+echo
+echo
+echo
+printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
+sleep 2.0
+cd $HOME
+cd GamePhish
+bash gamephish.sh
+}
+
+
+upda() {
+ 
+if [ -d "$HOME/GamePhish/core" ];
+then
+cd $HOME/GamePhish/core
+rm gamers.txt
+elif [ -d "$HOME/GamePhish/core" ];
+then
+cd $HOME/GamePhish/core
+rm gamers.txt
+else
+echo
+exit 1
+fi
+cd $HOME
+sleep 1
+echo -e "         \e[96mUPDATING NGROK, PLEASE WAIT FOR A WHILE...!\e[0m"
+echo
+printf "                     \e[96m["
+# While process is running...
+while git clone https://github.com/jatinkalwar/toolupdater 2> /dev/null; do 
+    printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
+    sleep 1
+done
+printf "\e[96m]\e[0m"
+echo
+echo
+echo
+printf "\e[96m           NGROK UPDATED SUCCESSFULLY (LATEST VERSION)..!\e[0m"
+sleep 2.0
+cd $HOME
+cd toolupdater/error
+mv gamers.txt $HOME/GamePhish/core
+cd $HOME
+rm -rf toolupdater
+
+}
 echo -e " \e[96m
                                  ████████ \e[0m"
 echo "                             ████████████████
@@ -8,10 +105,12 @@ echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──
 echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
 echo "                            ▄████▄──▐▌──▄████▄"
 echo -e "\e[91m
-                 _  _  ____     ____  _  _  __  ____  _  _       
-                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \      
-                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
-echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
+                
+                          ___    __    __  __  ____  ____  _   _  ____  ___  _   _ 
+                         / __)  /__\  (  \/  )( ___)(  _ \( )_( )(_  _)/ __)( )_( )
+                        ( (_-. /(__)\  )    (  )__)  )___/ ) _ (  _)(_ \__ \ ) _ ( "
+echo -e "\e[96m                          \___/(__)(__)(_/\/\_)(____)(__)  (_) (_)(____)(___/(_) (_)"
+
 echo      
 echo -e "                       \e[92m TOOL BY THE JATIN KALWAR\e[0m"
 echo
@@ -59,7 +158,12 @@ sleep 1.0
 bash gamephish.sh
 fi  
 clear
-banner() {
+bannr
+ban
+upda 
+clear
+
+bannr() {
 echo -e " \e[96m
                                  ████████ \e[0m"
 echo "                             ████████████████
@@ -69,12 +173,20 @@ echo -e "\e[0m                              █▌\e[91m▀▄──▄▄──
 echo -e "\e[0m                             ▐██──\e[91m▀▀\e[91m──▀▀──\e[0m██" 
 echo "                            ▄████▄──▐▌──▄████▄"
 }
-banner
+bannr
+ban
+baned
+ban() { 
 echo -e "\e[91m
-                 _  _  ____     ____  _  _  __  ____  _  _       
-                ( \/ )(  _ \   (  _ \/ )( \(  )/ ___)/ )( \      
-                / \/ \ )   / _  ) __/) __ ( )( \___ \) __ ("      
-echo -e "\e[96m                \_)(_/(__\_)(_)(__)  \_)(_/(__)(____/\_)(_/\e[0m"
+                
+                   ___    __    __  __  ____  ____  _   _  ____  ___  _   _ 
+                  / __)  /__\  (  \/  )( ___)(  _ \( )_( )(_  _)/ __)( )_( )
+                 ( (_-. /(__)\  )    (  )__)  )___/ ) _ (  _)(_ \__ \ ) _ ( "
+echo -e "\e[96m                   \___/(__)(__)(_/\/\_)(____)(__)  (_) (_)(____)(___/(_) (_)"
+
+}
+
+baned() {
 echo      
 echo -e "                       \e[92m TOOL BY THE JATIN KALWAR\e[0m"
 echo
@@ -87,10 +199,10 @@ echo -e "\e[96m        |                [\e[92m1\e[96m]==> START ATTACK         
 echo -e "\e[96m        |                [\e[92m2\e[96m]==> DUMPS                         |"
 echo -e "\e[96m        |                [\e[92m3\e[96m]==> ABOUT                         |"
 echo -e "\e[96m        |                [\e[92m4\e[96m]==> UPDATE                        |"
-echo -e "\e[96m        |                [\e[92m5\e[96m]==> EXIT                          |"
+echo -e "\e[96m        |                [\e[92m5\e[96m]==> CHAT NOW                      |"
 echo -e "\e[96m        |                [\e[92m6\e[96m]==> ACCESS KEY                    |"
 echo -e "\e[96m        |                [\e[92m7\e[96m]==> CHECK SPEED                   |"
-echo -e "\e[96m        |                [\e[92m8\e[96m]==> CHAT NOW                      |"
+echo -e "\e[96m        |                [\e[92m8\e[96m]==> EXIT                          |"
 echo -e "\e[96m        |                                                     |"
 echo -e "\e[96m        |-----------------------------------------------------|"
 echo -e "\e[96m        |---------------------\e[91mHEY HACKER\e[96m----------------------|"
@@ -108,7 +220,7 @@ bas=$(cat gamers.txt)
 if [[ $access = $bas ]];
 then
 clear
-  cd $HOME/mrphish/core
+  cd $HOME/mrphish/core/deploys/gaming
 bash menu.sh
         
 else
@@ -125,9 +237,7 @@ echo -e "               \e[34m ============================\e[34m"
 echo " "
 sleep 5.0
 fi
-cd $HOME
-bash gamephish.sh
-echo
+ban
 elif [[ $option == 2 || $option == 02 ]]; then
 echo
 cd $HOME/GamePhish/core/
@@ -138,8 +248,7 @@ cd $HOME/GamePhish/core/about
 bash about.sh
 elif [[ $option == 4 || $option == 04 ]]; then
 echo
-cd $HOME/GamePhish/core/update
-bash update.sh
+upd
 echo
 elif [[ $option == 7 || $option == 07 ]]; then
 echo
@@ -155,13 +264,13 @@ exit 3
 elif [[ $option == 6 || $option == 06 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel
+am start -a android.intent.action.VIEW -d https://bitly.com/3jFprHy
 clear
 echo
 elif [[ $option == 8 || $option == 08 ]]; then
 echo
 clear
-am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat
+am start -a android.intent.action.VIEW -d http://wa.me/994408609255
 else
 printf "                \e[1;92m [!] Invalid option!\e[0m\n"
 sleep 1
@@ -169,3 +278,4 @@ fi
 echo
 cd $HOME/GamePhish
 bash mr.sh
+}
